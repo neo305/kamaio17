@@ -4,7 +4,7 @@
         function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%"};
         function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully";},1000);setTimeout(function(){window.msgs.innerHTML="Turn Off the Internet & Reopen!!!";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
-<title>Stooged Auto Exploit & GoldHEN 2.2.2</title>
+<title>Stooged Auto Exploit & GoldHEN 2.3</title>
 <link rel="shortcut icon" href="favicon.ico"></link>
 <link rel="stylesheet" href="btn.css">
 <meta name=viewport content="width=device-width, initial-scale=1">
@@ -1443,7 +1443,7 @@ link.click();
 <body>
 <button class="btnkme" onMouseOver="msgs.innerHTML='Back to Main Menu'"; onmouseout="msgs.innerHTML='Stooged Auto Exploit & GoldHEN 2.1.2'" onclick="load_mainmenu(); return false">Back to Main Menu</button>
 
-    <h1 id=msgs>Stooged Auto Exploit & GoldHEN 2.2.2</h1>
+    <h1 id=msgs>Stooged Auto Exploit & GoldHEN 2.3</h1>
     <div class="info" id="message" style="display: none;">Loading Exploit, Please Wait ...</div>
     <script>
         if (window.applicationCache.status!='0')
